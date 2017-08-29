@@ -56,21 +56,19 @@ Course: Bachelor of Information Systems
 	      		 D <br>
 	</dt>
 	<p><i><dt> "If a method in D calls a method defined in A, By what class inherit, B or C?" </dt></i></p>
-	<dt> 
-		If you want to know more about the diamond problem: [Diamond Problem](https://es.wikipedia.org/wiki/Problema_del_diamante) 
-	</dt>
+	
+If you want to know more about the diamond problem: [Diamond Problem](https://es.wikipedia.org/wiki/Problema_del_diamante) 
+
 	
 <h3> Singleton (Design Pattern) </h3>
 	<dt> Singleton is a standard software design, This pattern guarantees the existence of only one instance of a class, maintaining 	      a global point of access to its object.
 	</dt>
 	
 <h5> Example in Java </h5>
-	<dt> 
 	private enum Elvis <br>
   	{ <br>
       	       INSTANCIA; <br>
   			<br>
       	       public void cantar(){ ... } <br>
   	} <br>
-	</dt>
-	<p> If you want to know more about Singleton: [Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern) </p>
+If you want to know more about Singleton: [Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
