@@ -13,11 +13,14 @@ Course: Bachelor of Information Systems
 
 # Projects in JAVA
 
-<h1> Singleton </h1>
+<h3> Singleton </h3>
     <dt> Some examples of Singleton implementations in the Java programming language </dt>
 		<ol>
-			<li> Primeiro item da lista </li>
-			<li> Segundo item da lista </li>
-			<li> Terceiro item da lista </li>
-			<li> Quarto item da lista </li>
+			<li> Singleton without Competition </li>
+			<li> Singleton Competitor </li>
+			<li> Concurrent Singleton with Minimum Synchronization </li>
+			<li> Beware of Multiple Commands </li>
+			<li> Singleton Preloaded and No Synchronization </li>
+			<li> Singleton concurrent and without synchronization </li>
+			<li> Enum Singleton Class </li>
 		</ol>
