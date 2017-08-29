@@ -24,3 +24,20 @@ Course: Bachelor of Information Systems
 			<li> Singleton concurrent and without synchronization </li>
 			<li> Enum Singleton Class </li>
 		</ol>
+
+<h3> Visibility of classes and methods </h3>
+ <dt> Some examples of class and method visibility in the Java programming language </dt>
+ 	<h5> Classes </h5>
+ 		<ol>
+			<li> Default class </li>
+			<li> Private class </li>
+			<li> Protected class </li>
+			<li> Public class </li>
+		</ol>	
+	<h5> Methods </h5>
+ 		<ol>
+			<li> Default method </li>
+			<li> Private method </li>
+			<li> Protected method </li>
+			<li> Public method </li>
+		</ol>
