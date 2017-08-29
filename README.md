@@ -14,7 +14,7 @@ Course: Bachelor of Information Systems
 # Projects in JAVA
 
 <h3> Singleton </h3>
-    <dt> Some examples of Singleton implementations in the Java programming language </dt>
+    <dt> Some examples of Singleton implementations in the Java programming language:<br> </dt>
 		<ol>
 			<li> Singleton without Competition </li>
 			<li> Singleton Competitor </li>
@@ -26,7 +26,7 @@ Course: Bachelor of Information Systems
 		</ol>
 
 <h3> Visibility of classes and methods </h3>
- <dt> Some examples of class and method visibility in the Java programming language </dt>
+ <dt> Some examples of class and method visibility in the Java programming language: </dt>
  	<h5> Classes: </h5>
  		<ol>
 			<li> Default class </li>
