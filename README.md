@@ -27,17 +27,23 @@ Course: Bachelor of Information Systems
 
 <h3> Visibility of classes and methods </h3>
  <dt> Some examples of class and method visibility in the Java programming language </dt>
- 	<h5> Classes </h5>
+ 	<h5> Classes: </h5>
  		<ol>
 			<li> Default class </li>
 			<li> Private class </li>
 			<li> Protected class </li>
 			<li> Public class </li>
 		</ol>	
-	<h5> Methods </h5>
+	<h5> Methods: </h5>
  		<ol>
 			<li> Default method </li>
 			<li> Private method </li>
 			<li> Protected method </li>
 			<li> Public method </li>
 		</ol>
+
+# Exercises
+
+<h3> Diamond Problem </h3>
+	<dt> In object-oriented programming languages, the diamond problem is an ambiguity problem that occurs when two categories B and C inherit from A, and class D inherits from B and C. </dt>
+	<a href="https://github.com/ayrtoncarlos/Facisa-P3"><img src="https://drive.google.com/open?id=0B6qHxn0m5nWgUkRMdW9VYUxlQUk" 	alt="Diamond Problem"/></a>
