@@ -71,5 +71,6 @@ If you want to know more about the diamond problem: [Diamond Problem](https://es
   			<br>
       	       public void cantar(){ ... } <br>
   	} <br>
-	
+
+
 If you want to know more about Singleton: [Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
