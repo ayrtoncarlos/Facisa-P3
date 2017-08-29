@@ -48,7 +48,7 @@ Course: Bachelor of Information Systems
 	<dt> In object-oriented programming languages, the diamond problem is an ambiguity problem that occurs when two categories B and 	      C inherit from A, and class D inherits from B and C. 
 	</dt>
 	
-<h5> Example <h5>
+<h5> Example: <h5>
 	<dt>  		 A <br>
 	    		/ \ <br>
 	   	       B   C <br>
@@ -64,7 +64,7 @@ If you want to know more about the diamond problem: [Diamond Problem](https://es
 	<dt> Singleton is a standard software design, This pattern guarantees the existence of only one instance of a class, maintaining 	      a global point of access to its object.
 	</dt>
 	
-<h5> Example in Java </h5>
+<h5> Example in Java: </h5>
 	private enum Elvis <br>
   	{ <br>
       	       INSTANCIA; <br>
