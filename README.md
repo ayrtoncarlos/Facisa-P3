@@ -64,12 +64,13 @@ Course: Bachelor of Information Systems
 	<dt> Singleton is a standard software design, This pattern guarantees the existence of only one instance of a class, maintaining 	      a global point of access to its object.
 	</dt>
 	
-<h5> Example </h5>
+<h5> Example in Java </h5>
 	<dt> 
 	private enum Elvis <br>
-2 	{ <br>
-3     		INSTANCIA; <br>
-4 			<br>
-5     		public void cantar(){ ... } <br>
-6 	} <br>
+  	{ <br>
+      	       INSTANCIA; <br>
+  			<br>
+      	       public void cantar(){ ... } <br>
+  	} <br>
 	</dt>
+	<p> If you want to know more about Singleton: [Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern) </p>
