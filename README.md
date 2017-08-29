@@ -47,5 +47,5 @@ Course: Bachelor of Information Systems
 <h3> Diamond Problem </h3>
 	<dt> In object-oriented programming languages, the diamond problem is an ambiguity problem that occurs when two categories B and C inherit from A, and class D inherits from B and C. </dt>
 	<p align="center">
-    		<img src="https://commons.wikimedia.org/wiki/File:Diamond_inheritance.svg" alt=" Problem Diamond " >
+    		<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diamond_inheritance.svg/180px-Diamond_inheritance.svg.png" alt=" Problem Diamond " >
 	</p>
