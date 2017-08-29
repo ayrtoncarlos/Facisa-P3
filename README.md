@@ -14,7 +14,7 @@ Course: Bachelor of Information Systems
 # Projects in JAVA
 
 <h3> Singleton </h3>
-    <dt> Some examples of Singleton implementations in the Java programming language:<br> </dt>
+    <dt> Some examples of Singleton implementations in the Java programming language: </dt>
 		<ol>
 			<li> Singleton without Competition </li>
 			<li> Singleton Competitor </li>
