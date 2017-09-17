@@ -26,22 +26,25 @@ Course: Bachelor of Information Systems
 		</ol>
 
 <h3> Visibility of classes and methods </h3>
- <dt> Some examples of class and method visibility in the Java programming language: </dt>
- 	<h5> Classes: </h5>
- 		<ol>
-			<li> Default class </li>
-			<li> Private class </li>
-			<li> Protected class </li>
-			<li> Public class </li>
-		</ol>	
-	<h5> Methods: </h5>
- 		<ol>
-			<li> Default method </li>
-			<li> Private method </li>
-			<li> Protected method </li>
-			<li> Public method </li>
-		</ol>
-
+ 	<dt> Some examples of class and method visibility in the Java programming language: </dt>
+ 		<h5> Classes: </h5>
+ 			<ol>
+				<li> Default class </li>
+				<li> Private class </li>
+				<li> Protected class </li>
+				<li> Public class </li>
+			</ol>	
+		<h5> Methods: </h5>
+ 			<ol>
+				<li> Default method </li>
+				<li> Private method </li>
+				<li> Protected method </li>
+				<li> Public method </li>
+			</ol>
+			
+<h3> Simple implementation of a Deque with tests in JUnit </h3>
+	<dt> A simple implementation in the Java language of a Deque with JUnit test cases </dt>
+	
 # Exercises
 
 <h3> Diamond Problem </h3>
