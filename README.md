@@ -43,7 +43,7 @@ Course: Bachelor of Information Systems
 			</ol>
 			
 <h3> Simple implementation of a Deque with tests in JUnit </h3>
-	<dt> A simple implementation in the Java language of a Deque with JUnit test cases </dt>
+	<dt> A simple implementation in the Java language of a Deque with JUnit test cases. </dt>
 	
 # Exercises
 
