@@ -28,16 +28,16 @@ public class Deque {
 
 			internArrayOverflow();
 
-		} else {
-
-			for (int i = 0; i < inserted; i++) {
-
-				arrayDeque[i + 1] = arrayDeque[i];
-			}
-
-			arrayDeque[INITIAL_POSITION] = o;
-			inserted++;
 		}
+
+		for (int i = inserted; i > 0; i--) {
+
+			arrayDeque[i] = arrayDeque[i - 1];
+		}
+
+		arrayDeque[INITIAL_POSITION] = o;
+		inserted++;
+		
 	}
 
 	public void addLast(Object o) {
@@ -51,11 +51,10 @@ public class Deque {
 
 			internArrayOverflow();
 
-		} else {
-
-			arrayDeque[inserted] = o;
-			inserted++;
 		}
+
+		arrayDeque[inserted] = o;
+		inserted++;
 	}
 
 	private Object[] internArrayOverflow() {
