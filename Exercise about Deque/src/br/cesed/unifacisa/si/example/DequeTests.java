@@ -36,7 +36,7 @@ public class DequeTests {
 		arrayDeque.addFirst('Y');
 		arrayDeque.addFirst('A');
 
-		assertEquals(5, arrayDeque.getSize());
+		assertEquals(6, arrayDeque.getSize());
 	}
 	
 	@Test
@@ -78,7 +78,7 @@ public class DequeTests {
 		arrayDeque.addLast('O');
 		arrayDeque.addLast('N');
 
-		assertEquals(5, arrayDeque.getSize());
+		assertEquals(6, arrayDeque.getSize());
 	}
 	
 	@Test
