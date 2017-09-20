@@ -61,7 +61,7 @@ public class Stack {
 
 				arrayStack[i] = arrayStack[i + 1];
 			}
-
+			arrayStack[inserted-1] = null;
 			inserted--;
 			return o;
 
