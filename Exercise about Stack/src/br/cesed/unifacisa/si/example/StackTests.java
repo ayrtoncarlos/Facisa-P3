@@ -50,6 +50,7 @@ public class StackTests {
 		arrayStack.addStack('O');
 		arrayStack.addStack('T');
 		arrayStack.addStack('R');
+		arrayStack.removeTop();
 		arrayStack.addStack('Y');
 		arrayStack.addStack('A');
 		
@@ -64,9 +65,9 @@ public class StackTests {
 		
 		arrayStack.addStack('C');
 		arrayStack.addStack('B');
-		arrayStack.addStack('A');
+		arrayStack.removeTop();
 		
-		assertEquals('A', arrayStack.removeTop());
+		assertEquals('C', arrayStack.getTop());
 		
 	}
 	
