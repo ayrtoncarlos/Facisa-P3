@@ -13,7 +13,7 @@ import org.junit.Test;
 public class DequeTests {
 
 	@Test
-	public void testInsertFirst1() {
+	public void testAddFirst1() {
 
 		Deque arrayDeque = new Deque();
 
@@ -25,7 +25,7 @@ public class DequeTests {
 	}
 	
 	@Test
-	public void testInsertFirst2() {
+	public void testAddFirst2() {
 
 		Deque arrayDeque = new Deque();
 
@@ -39,6 +39,21 @@ public class DequeTests {
 		assertEquals(6, arrayDeque.getSize());
 	}
 	
+	@Test
+	public void testAddFirstAndAddLast() {
+
+		Deque arrayDeque = new Deque();
+
+		arrayDeque.addFirst('N');
+		arrayDeque.addFirst('O');
+		arrayDeque.addLast('T');
+		arrayDeque.addFirst('R');
+		arrayDeque.addLast('Y');
+		arrayDeque.addFirst('A');
+
+		assertEquals('Y', arrayDeque.getLast());
+	}
+
 	@Test
 	public void testRemoveFirst1() {
 
@@ -60,6 +75,7 @@ public class DequeTests {
 		arrayDeque.addFirst('O');
 		arrayDeque.addFirst('T');
 		arrayDeque.addFirst('R');
+		arrayDeque.removeFirst();
 		arrayDeque.addFirst('Y');
 		arrayDeque.addFirst('A');
 
@@ -67,7 +83,7 @@ public class DequeTests {
 	}
 	
 	@Test
-	public void testInsertLast1(){
+	public void testAddLast1(){
 		
 		Deque arrayDeque = new Deque();
 		
@@ -82,7 +98,7 @@ public class DequeTests {
 	}
 	
 	@Test
-	public void testInsertLast2(){
+	public void testAddLast2(){
 		
 		Deque arrayDeque = new Deque();
 		
