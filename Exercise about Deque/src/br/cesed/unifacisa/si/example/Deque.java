@@ -37,7 +37,7 @@ public class Deque {
 
 		arrayDeque[INITIAL_POSITION] = o;
 		inserted++;
-		
+
 	}
 
 	public void addLast(Object o) {
@@ -72,23 +72,45 @@ public class Deque {
 
 	public Object removeFirst() {
 
-		Object o = arrayDeque[INITIAL_POSITION];
-		arrayDeque[INITIAL_POSITION] = null;
+		if (!isEmpty()) {
 
-		for (int i = 0; i < inserted-1; i++) {
+			Object o = arrayDeque[INITIAL_POSITION];
+			arrayDeque[INITIAL_POSITION] = null;
 
-			arrayDeque[i] = arrayDeque[i + 1];
+			for (int i = 0; i < inserted - 1; i++) {
+
+				arrayDeque[i] = arrayDeque[i + 1];
+			}
+			arrayDeque[inserted - 1] = null;
+			inserted--;
+			return o;
+			
+		} else {
+
+			return null;
 		}
-		inserted--;
-		return o;
+
 	}
 
 	public Object removeLast() {
 
-		Object o = arrayDeque[inserted - 1];
-		arrayDeque[inserted - 1] = null;
-		inserted--;
-		return o;
+		if (!isEmpty()) {
+
+			Object o = arrayDeque[inserted - 1];
+			arrayDeque[inserted - 1] = null;
+			inserted--;
+			return o;
+			
+		} else {
+			
+			return null;
+		}
+
+	}
+
+	private boolean isEmpty() {
+
+		return arrayDeque.length == 0;
 	}
 
 	public Object getFirst() {
