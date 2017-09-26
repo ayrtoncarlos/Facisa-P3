@@ -1,7 +1,16 @@
 package br.cesed.unifacisa.si.example;
 
+/**
+ * 
+ * @author Ayrton Carlos
+ *
+ */
 public class MainDeque {
 	
+	/**
+	* Main test method
+	*
+	*/
 	public static void main(String[] args) throws DequeFullException {
 		
 		Deque arrayDeque = new Deque(3);
