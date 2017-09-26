@@ -41,14 +41,17 @@ Course: Bachelor of Information Systems
 				<li> Protected method </li>
 				<li> Public method </li>
 			</ol>
-			
-<h3> Simple implementation of a Deque with tests in JUnit </h3>
+
+<h3> Simple implementation of a Deque with linked list and tests with JUnit 4. </h3>
+	<dt> A simple implementation in the Java language of a Deque with linked list and JUnit test cases. </dt>
+	
+<h3> Simple implementation of a Deque with tests in JUnit 4. </h3>
 	<dt> A simple implementation in the Java language of a Deque with JUnit test cases. </dt>
 	
-<h3> Simple implementation of a Stack with tests in JUnit </h3>
+<h3> Simple implementation of a Stack with tests in JUnit 4. </h3>
 	<dt> A simple implementation in the Java language of a Stack with JUnit test cases. </dt>
 
-<h3> Simple implementation of a Queue with tests in JUnit </h3>
+<h3> Simple implementation of a Queue with tests in JUnit 4. </h3>
 	<dt> A simple implementation in the Java language of a Queue with JUnit test cases. </dt>
 	
 # Exercises
