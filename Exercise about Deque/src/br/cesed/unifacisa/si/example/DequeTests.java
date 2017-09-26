@@ -8,6 +8,7 @@ import org.junit.Test;
  * 
  * @author Ayrton Carlos
  *
+ *         Represents multiple tests with JUnit 4.
  */
 
 public class DequeTests {
@@ -23,7 +24,7 @@ public class DequeTests {
 
 		assertEquals(3, arrayDeque.getSize());
 	}
-	
+
 	@Test
 	public void testAddFirst2() {
 
@@ -38,7 +39,7 @@ public class DequeTests {
 
 		assertEquals(6, arrayDeque.getSize());
 	}
-	
+
 	@Test
 	public void testAddFirstAndAddLast() {
 
@@ -65,7 +66,7 @@ public class DequeTests {
 
 		assertEquals(1, arrayDeque.removeFirst());
 	}
-	
+
 	@Test
 	public void testRemoveFirst2() {
 
@@ -81,12 +82,12 @@ public class DequeTests {
 
 		assertEquals('A', arrayDeque.removeFirst());
 	}
-	
+
 	@Test
-	public void testAddLast1(){
-		
+	public void testAddLast1() {
+
 		Deque arrayDeque = new Deque();
-		
+
 		arrayDeque.addLast('A');
 		arrayDeque.addLast('Y');
 		arrayDeque.addLast('R');
@@ -96,24 +97,24 @@ public class DequeTests {
 
 		assertEquals(6, arrayDeque.getSize());
 	}
-	
+
 	@Test
-	public void testAddLast2(){
-		
+	public void testAddLast2() {
+
 		Deque arrayDeque = new Deque();
-		
+
 		arrayDeque.addLast(1);
 		arrayDeque.addLast(2);
 		arrayDeque.addLast(3);
 
 		assertEquals(3, arrayDeque.getSize());
 	}
-	
+
 	@Test
-	public void testRemoveLast1(){
-		
+	public void testRemoveLast1() {
+
 		Deque arrayDeque = new Deque();
-		
+
 		arrayDeque.addLast('A');
 		arrayDeque.addLast('Y');
 		arrayDeque.addLast('R');
@@ -123,17 +124,53 @@ public class DequeTests {
 
 		assertEquals('N', arrayDeque.removeLast());
 	}
-	
+
 	@Test
-	public void testRemoveLast2(){
-		
+	public void testRemoveLast2() {
+
 		Deque arrayDeque = new Deque();
-		
+
 		arrayDeque.addLast(1);
 		arrayDeque.addLast(2);
 		arrayDeque.addLast(3);
 
 		assertEquals(3, arrayDeque.removeLast());
+	}
+
+	@Test
+	public void testGetFirst1() {
+
+		Deque arrayDeque = new Deque();
+
+		arrayDeque.addFirst(1);
+
+		assertEquals(1, arrayDeque.getFirst());
+	}
+
+	@Test
+	public void testGetFirst2() {
+
+		Deque arrayDeque = new Deque();
+
+		assertEquals(null, arrayDeque.getFirst());
+	}
+
+	@Test
+	public void testGetLast1() {
+
+		Deque arrayDeque = new Deque();
+
+		arrayDeque.addLast('A');
+
+		assertEquals('A', arrayDeque.getFirst());
+	}
+
+	@Test
+	public void testGetLast2() {
+
+		Deque arrayDeque = new Deque();
+
+		assertEquals(null, arrayDeque.getFirst());
 	}
 
 }

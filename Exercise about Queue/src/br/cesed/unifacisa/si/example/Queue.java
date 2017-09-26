@@ -4,6 +4,7 @@ package br.cesed.unifacisa.si.example;
  * 
  * @author Ayrton Carlos
  *
+ *         Represents a simple implementation of a queue in Java.
  */
 
 public class Queue {
@@ -13,10 +14,19 @@ public class Queue {
 	Object[] arrayQueue = new Object[INITIAL_SIZE];
 	private int inserted = 0;
 
+	/**
+	 * Constructor of class.
+	 *
+	 */
 	public Queue() {
 
 	}
 
+	/**
+	 * Adds element to queue.
+	 * 
+	 * @param o
+	 */
 	public void addElement(Object o) {
 
 		if (o == null) {
@@ -32,6 +42,9 @@ public class Queue {
 		inserted++;
 	}
 
+	/**
+	 * @return new array if array capacity exceeds.
+	 */
 	private Object[] internArrayOverflow() {
 
 		Object[] newArrayQueue = new Object[arrayQueue.length * 2];
@@ -45,6 +58,11 @@ public class Queue {
 
 	}
 
+	/**
+	 * Remove element from queue.
+	 * 
+	 * @return the element removed.
+	 */
 	public Object removeElement() {
 
 		if (!isEmpty()) {
@@ -55,7 +73,7 @@ public class Queue {
 
 				arrayQueue[i] = arrayQueue[i + 1];
 			}
-			arrayQueue[inserted-1] = null;
+			arrayQueue[inserted - 1] = null;
 			inserted--;
 			return o;
 
@@ -65,16 +83,34 @@ public class Queue {
 		}
 	}
 
+	/**
+	 * Check if array is empty.
+	 * 
+	 * @return true or false.
+	 */
 	private boolean isEmpty() {
 
 		return arrayQueue.length == 0;
 	}
 
+	/**
+	 * @return the value of the first element of the queue.
+	 */
 	public Object getFirst() {
 
-		return arrayQueue[INITIAL_POSITION];
+		if (!(isEmpty())) {
+
+			return arrayQueue[INITIAL_POSITION];
+
+		} else {
+
+			return null;
+		}
 	}
 
+	/**
+	 * @return queue size.
+	 */
 	public int getSize() {
 
 		return inserted;

@@ -4,6 +4,7 @@ package br.cesed.unifacisa.si.example;
  * 
  * @author Ayrton Carlos
  *
+ *         Represents a simple implementation of a stack in Java.
  */
 
 public class Stack {
@@ -13,10 +14,19 @@ public class Stack {
 	Object[] arrayStack = new Object[INITIAL_SIZE];
 	private int inserted = 0;
 
+	/**
+	 * Constructor of class.
+	 *
+	 */
 	public Stack() {
 
 	}
 
+	/**
+	 * Add element to stack.
+	 * 
+	 * @param o
+	 */
 	public void addStack(Object o) {
 
 		if (o == null) {
@@ -38,6 +48,9 @@ public class Stack {
 
 	}
 
+	/**
+	 * @return new array if array capacity exceeds.
+	 */
 	private Object[] internArrayOverflow() {
 
 		Object[] newArrayQueue = new Object[arrayStack.length * 2];
@@ -50,6 +63,11 @@ public class Stack {
 		return arrayStack = newArrayQueue;
 	}
 
+	/**
+	 * Remove element from top of stack.
+	 * 
+	 * @return the removed element.
+	 */
 	public Object removeTop() {
 
 		if (!isEmpty()) {
@@ -61,7 +79,7 @@ public class Stack {
 
 				arrayStack[i] = arrayStack[i + 1];
 			}
-			arrayStack[inserted-1] = null;
+			arrayStack[inserted - 1] = null;
 			inserted--;
 			return o;
 
@@ -71,16 +89,34 @@ public class Stack {
 		}
 	}
 
+	/**
+	 * Check if array is empty.
+	 * 
+	 * @return true or false.
+	 */
 	private boolean isEmpty() {
 
 		return getSize() == 0;
 	}
 
+	/**
+	 * @return the top-of-stack element.
+	 */
 	public Object getTop() {
 
-		return arrayStack[INITIAL_POSITION];
+		if (!(isEmpty())) {
+
+			return arrayStack[INITIAL_POSITION];
+
+		} else {
+
+			return null;
+		}
 	}
 
+	/**
+	 * @return the stack size.
+	 */
 	public int getSize() {
 
 		return inserted;
