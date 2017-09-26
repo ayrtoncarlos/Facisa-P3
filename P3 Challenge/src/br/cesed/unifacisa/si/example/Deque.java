@@ -13,6 +13,10 @@ public class Deque<E> {
 	private E[] arrayDeque;
 	private int inserted = 0;
 
+	/**
+	* constructor of class
+	*
+	*/
 	public Deque(int size) {
 
 		arrayDeque = (E[]) new Object[size];
