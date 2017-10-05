@@ -53,14 +53,14 @@ public class Stack {
 	 */
 	private Object[] internArrayOverflow() {
 
-		Object[] newArrayQueue = new Object[arrayStack.length * 2];
+		Object[] newArrayStack = new Object[arrayStack.length * 2];
 
 		for (int i = 0; i < arrayStack.length; i++) {
 
-			newArrayQueue[i] = arrayStack[i];
+			newArrayStack[i] = arrayStack[i];
 		}
 
-		return arrayStack = newArrayQueue;
+		return arrayStack = newArrayStack;
 	}
 
 	/**
