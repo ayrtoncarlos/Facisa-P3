@@ -46,15 +46,18 @@ Course: Bachelor of Information Systems
 	
 <h4> Algorithm: </h4>
 	<dt> For each node, first the node is visited and then it’s child nodes are put in a FIFO queue. </dt>
-	<ul>
-		<h5> printLevelorder(tree) </h5>
-			<li> 1) Create an empty queue q. </li>
-			<li> 2) temp_node = root /*start from root*/. </li>
-			<li> 3) Loop while temp_node is not NULL: </li>
-				<li> a) print temp_node->data. </li>
-				<li> b) Enqueue temp_node’s children (first left then right children) to q. </li>
-				<li> c) Dequeue a node from q and assign it’s value to temp_node. </li>
-	</ul>
+	
+	<h5> printLevelorder(tree) </h5>
+	<ol>
+		<li>) Create an empty queue q. </li>
+		<li>) temp_node = root /*start from root*/. </li>
+		<li>) Loop while temp_node is not NULL: </li>
+		<ol>
+			<li> a) print temp_node->data. </li>
+			<li> b) Enqueue temp_node’s children (first left then right children) to q. </li>
+			<li> c) Dequeue a node from q and assign it’s value to temp_node. </li>
+		</ol>
+	</ol>
 		   
 <h4> Time Complexity: </h4> 
 	<dt> O(n) where n is number of nodes in the binary tree. </dt>
