@@ -41,6 +41,20 @@ Course: Bachelor of Information Systems
 				<li> Protected method </li>
 				<li> Public method </li>
 			</ol>
+<h2> Level Order Tree Traversal with Queue. </h2>
+	<dt> Level order traversal of a tree is breadth first traversal for the tree with Queue. </dt>
+	
+<h4> Algorithm: </h4>
+	<dt> For each node, first the node is visited and then it’s child nodes are put in a FIFO queue. </dt>
+
+	<dt> printLevelorder(tree)
+		1) Create an empty queue q
+		2) temp_node = root /*start from root*/
+		3) Loop while temp_node is not NULL
+    			a) print temp_node->data.
+    			b) Enqueue temp_node’s children (first left then right children) to q.
+    			c) Dequeue a node from q and assign it’s value to temp_node.
+	</dt>
 
 <h3> Simple implementation of a Deque with linked list and tests with JUnit 4. </h3>
 	<dt> A simple implementation in the Java language of a Deque with linked list and JUnit test cases. </dt>
