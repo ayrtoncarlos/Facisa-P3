@@ -54,8 +54,10 @@ Course: Bachelor of Information Systems
     		   a) print temp_node->data.
     		   b) Enqueue temp_node’s children (first left then right children) to q.
     		   c) Dequeue a node from q and assign it’s value to temp_node.
+		   
+<h5> Time Complexity: </h5> 
+	<dt> O(n) where n is number of nodes in the binary tree. </dt>
 	
-
 <h3> Simple implementation of a Deque with linked list and tests with JUnit 4. </h3>
 	<dt> A simple implementation in the Java language of a Deque with linked list and JUnit test cases. </dt>
 	
