@@ -41,6 +41,11 @@ Course: Bachelor of Information Systems
 				<li> Protected method </li>
 				<li> Public method </li>
 			</ol>
+<h4> Sorting Algorithms </h4>
+
+<h2> Bubble Sort </h2>
+	<dt> Method of simple implementation of the ordering algorithm Bubble Sort with JUnit 4 tests. </dt>
+	
 <h2> Level Order Tree Traversal with Queue. </h2>
 	<dt> Level order traversal of a tree is breadth first traversal for the tree with Queue. </dt>
 	
