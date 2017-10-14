@@ -13,7 +13,7 @@ Course: Bachelor of Information Systems
 
 # Projects in JAVA
 
-<h3> ♣ Singleton </h3>
+<h2> ♣ Singleton </h2>
     <dt> Some examples of Singleton implementations in the Java programming language: </dt>
 		<ol>
 			<li> Singleton without Competition </li>
@@ -25,7 +25,7 @@ Course: Bachelor of Information Systems
 			<li> Enum Singleton Class </li>
 		</ol>
 
-<h3> ♣ Visibility of classes and methods </h3>
+<h2> ♣ Visibility of classes and methods </h2>
  	<dt> Some examples of class and method visibility in the Java programming language: </dt>
  		<h5> Classes: </h5>
  			<ol>
@@ -58,7 +58,7 @@ Course: Bachelor of Information Systems
 	<dt> Level order traversal of a tree is breadth first traversal for the tree with Queue. </dt>
 
 
-<dt> Algorithm: </dt>
+<h4> Algorithm: </h4>
 	<dt> For each node, first the node is visited and then it’s child nodes are put in a FIFO queue. </dt>
 	
 	printLevelorder(tree)
@@ -92,7 +92,7 @@ Course: Bachelor of Information Systems
 
 # Exercises
 
-<h3> ♦ Diamond Problem </h3>
+<h2> ♦ Diamond Problem </h2>
 	<dt> In object-oriented programming languages, the diamond problem is an ambiguity problem that occurs when two categories B and 	      C inherit from A, and class D inherits from B and C. 
 	</dt>
 	
@@ -108,7 +108,7 @@ Course: Bachelor of Information Systems
 If you want to know more about the diamond problem: [Diamond Problem](https://es.wikipedia.org/wiki/Problema_del_diamante) 
 
 	
-<h3> ♦ Singleton (Design Pattern) </h3>
+<h2> ♦ Singleton (Design Pattern) </h2>
 	<dt> Singleton is a standard software design, This pattern guarantees the existence of only one instance of a class, maintaining 	      a global point of access to its object.
 	</dt>
 	
