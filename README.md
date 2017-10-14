@@ -56,9 +56,9 @@ Course: Bachelor of Information Systems
 <ul>
 <li> Level Order Tree Traversal with Queue. </li>
 	<dt> Level order traversal of a tree is breadth first traversal for the tree with Queue. </dt>
-</ul>
 
-<h4> Algorithm: </h4>
+
+<dt> Algorithm: </dt>
 	<dt> For each node, first the node is visited and then it’s child nodes are put in a FIFO queue. </dt>
 	
 	printLevelorder(tree)
@@ -71,20 +71,22 @@ Course: Bachelor of Information Systems
 		   
 <h4> Time Complexity: </h4> 
 	<dt> O(n) where n is number of nodes in the binary tree. </dt>
+	
+</ul>
 
 <h2> ♠ Algorithms of data structures: </h2>
 
 <ul>
-<li> Simple implementation of a Deque with linked list and tests with JUnit 4. </li>
+<li> Deque with linked: </li>
 	<dt> A simple implementation in the Java language of a Deque with linked list and JUnit test cases. </dt>
 	
-<li> Simple implementation of a Deque with tests in JUnit 4. </li>
+<li> Deque: </li>
 	<dt> A simple implementation in the Java language of a Deque with JUnit test cases. </dt>
 	
-<li> Simple implementation of a Stack with tests in JUnit 4. </li>
+<li> Stack: </li>
 	<dt> A simple implementation in the Java language of a Stack with JUnit test cases. </dt>
 
-<li> Simple implementation of a Queue with tests in JUnit 4. </li>
+<li> Queue: </li>
 	<dt> A simple implementation in the Java language of a Queue with JUnit test cases. </dt>
 </ul>
 
