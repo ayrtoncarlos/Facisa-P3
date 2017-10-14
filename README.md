@@ -77,7 +77,7 @@ Course: Bachelor of Information Systems
 <h2> ♠ Algorithms of data structures: </h2>
 
 <ul>
-<li> Deque with linked: </li>
+<li> Deque with linked list: </li>
 	<dt> A simple implementation in the Java language of a Deque with linked list and JUnit test cases. </dt>
 	
 <li> Deque: </li>
