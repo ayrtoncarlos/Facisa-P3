@@ -46,10 +46,10 @@ Course: Bachelor of Information Systems
 
 <h2> ♠ Sorting Algorithms: </h2>
 
-<ol>
+<ul>
 <li> Bubble Sort: </li>
 	<dt> Method of simple implementation of the ordering algorithm Bubble Sort with JUnit 4 tests. </dt>
-</ol>
+</ul>
 
 <h2> ♠ Algorithms for binary trees: </h2>
 
@@ -72,7 +72,7 @@ Course: Bachelor of Information Systems
 
 <h2> ♠ Algorithms of data structures: </h2>
 
-<h4> Simple implementation of a Deque with linked list and tests with JUnit 4. </h4>
+<dt> Simple implementation of a Deque with linked list and tests with JUnit 4. </dt>
 	 A simple implementation in the Java language of a Deque with linked list and JUnit test cases.
 	
 <h4> Simple implementation of a Deque with tests in JUnit 4. </h4>
