@@ -53,9 +53,11 @@ Course: Bachelor of Information Systems
 
 <h2> ♠ Algorithms for binary trees: </h2>
 
-<h4> Level Order Tree Traversal with Queue. </h4>
+<ul>
+<li> Level Order Tree Traversal with Queue. </li>
 	<dt> Level order traversal of a tree is breadth first traversal for the tree with Queue. </dt>
-	
+</ul>
+
 <h4> Algorithm: </h4>
 	<dt> For each node, first the node is visited and then it’s child nodes are put in a FIFO queue. </dt>
 	
@@ -72,18 +74,20 @@ Course: Bachelor of Information Systems
 
 <h2> ♠ Algorithms of data structures: </h2>
 
-<dt> Simple implementation of a Deque with linked list and tests with JUnit 4. </dt>
-	 A simple implementation in the Java language of a Deque with linked list and JUnit test cases.
+<ul>
+<li> Simple implementation of a Deque with linked list and tests with JUnit 4. </li>
+	<dt> A simple implementation in the Java language of a Deque with linked list and JUnit test cases. </dt>
 	
-<h4> Simple implementation of a Deque with tests in JUnit 4. </h4>
+<li> Simple implementation of a Deque with tests in JUnit 4. </li>
 	<dt> A simple implementation in the Java language of a Deque with JUnit test cases. </dt>
 	
-<h4> Simple implementation of a Stack with tests in JUnit 4. </h4>
+<li> Simple implementation of a Stack with tests in JUnit 4. </li>
 	<dt> A simple implementation in the Java language of a Stack with JUnit test cases. </dt>
 
-<h4> Simple implementation of a Queue with tests in JUnit 4. </h4>
+<li> Simple implementation of a Queue with tests in JUnit 4. </li>
 	<dt> A simple implementation in the Java language of a Queue with JUnit test cases. </dt>
-	
+</ul>
+
 # Exercises
 
 <h3> ♦ Diamond Problem </h3>
