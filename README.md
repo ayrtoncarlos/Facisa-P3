@@ -13,7 +13,7 @@ Course: Bachelor of Information Systems
 
 # Projects in JAVA
 
-<h3> Singleton </h3>
+<h3> ♣ Singleton </h3>
     <dt> Some examples of Singleton implementations in the Java programming language: </dt>
 		<ol>
 			<li> Singleton without Competition </li>
@@ -25,7 +25,7 @@ Course: Bachelor of Information Systems
 			<li> Enum Singleton Class </li>
 		</ol>
 
-<h3> Visibility of classes and methods </h3>
+<h3> ♣ Visibility of classes and methods </h3>
  	<dt> Some examples of class and method visibility in the Java programming language: </dt>
  		<h5> Classes: </h5>
  			<ol>
@@ -41,14 +41,17 @@ Course: Bachelor of Information Systems
 				<li> Protected method </li>
 				<li> Public method </li>
 			</ol>
-<h2> Sorting Algorithms: </h2>
 
-<h4> ♠ Bubble Sort: </h4>
+# Algorithms
+
+<h2> ♠ Sorting Algorithms: </h2>
+
+<h4> Bubble Sort: </h4>
 	<dt> Method of simple implementation of the ordering algorithm Bubble Sort with JUnit 4 tests. </dt>
 
-<h2> Algorithms for binary trees: </h2>
+<h2> ♠ Algorithms for binary trees: </h2>
 
-<h4> ♦ Level Order Tree Traversal with Queue. </h4>
+<h4> Level Order Tree Traversal with Queue. </h4>
 	<dt> Level order traversal of a tree is breadth first traversal for the tree with Queue. </dt>
 	
 <h4> Algorithm: </h4>
@@ -64,7 +67,9 @@ Course: Bachelor of Information Systems
 		   
 <h4> Time Complexity: </h4> 
 	<dt> O(n) where n is number of nodes in the binary tree. </dt>
-	
+
+<h2> ♠ Algorithms of data structures: </h2>
+
 <h3> Simple implementation of a Deque with linked list and tests with JUnit 4. </h3>
 	<dt> A simple implementation in the Java language of a Deque with linked list and JUnit test cases. </dt>
 	
@@ -79,7 +84,7 @@ Course: Bachelor of Information Systems
 	
 # Exercises
 
-<h3> Diamond Problem </h3>
+<h3> ♦ Diamond Problem </h3>
 	<dt> In object-oriented programming languages, the diamond problem is an ambiguity problem that occurs when two categories B and 	      C inherit from A, and class D inherits from B and C. 
 	</dt>
 	
@@ -95,7 +100,7 @@ Course: Bachelor of Information Systems
 If you want to know more about the diamond problem: [Diamond Problem](https://es.wikipedia.org/wiki/Problema_del_diamante) 
 
 	
-<h3> Singleton (Design Pattern) </h3>
+<h3> ♦ Singleton (Design Pattern) </h3>
 	<dt> Singleton is a standard software design, This pattern guarantees the existence of only one instance of a class, maintaining 	      a global point of access to its object.
 	</dt>
 	
