@@ -47,8 +47,10 @@ Course: Bachelor of Information Systems
 <h2> ♠ Sorting Algorithms: </h2>
 
 <ul>
-<li> Bubble Sort: </li>
-	<dt> Method of simple implementation of the ordering algorithm Bubble Sort with JUnit 4 tests. </dt>
+	<li> Bubble Sort: </li>
+		<dt> Method of simple implementation of the ordering algorithm Bubble Sort with JUnit 4 tests. </dt>
+	<li> Sorting Strings using Bubble Sort: </li>
+		<dt> Method of simple implementation of the ordering algorithm Bubble Sort for Strings with JUnit 4 tests. </dt>
 </ul>
 
 <h2> ♠ Algorithms for binary trees: </h2>
