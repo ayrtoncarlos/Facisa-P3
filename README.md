@@ -53,6 +53,8 @@ Course: Bachelor of Information Systems
 		<dt> Simple implementation of the ordering algorithm Bubble Sort for Strings with JUnit 4 tests. </dt>
 	<li> Selection Sort: </li>
 		<dt> Simple implementation of the Selection Sort classification algorithm with JUnit 5 tests. </dt>
+	<li> Insertion Sort: </li>
+		<dt> Simple implementation of the Insertion Sort classification algorithm with JUnit 4 tests. </dt>
 	<li> Recursive QuickSort Algorithm: </li>
 		<dt> Implementation of the recursive QuickSort algorithm with JUnit 5 tests. </dt>
 </ul>
