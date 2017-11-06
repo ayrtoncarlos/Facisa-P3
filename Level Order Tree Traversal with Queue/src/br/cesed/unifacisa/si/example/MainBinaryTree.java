@@ -12,7 +12,7 @@ public class MainBinaryTree {
 		tree_level.root.left.left = new Node(1);
 		tree_level.root.left.right = new Node(3);
 		
-		System.out.println("Level order traversal of binary tree is - ");
+		System.out.print("Level order traversal of binary tree is - ");
 		tree_level.printLevelOrder();
 	}
 }
