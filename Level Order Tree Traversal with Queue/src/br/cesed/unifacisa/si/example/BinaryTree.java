@@ -15,7 +15,7 @@ public class BinaryTree {
 		while (!queue.isEmpty()) {
 
 			Node tempNode = queue.poll();
-			System.out.println(tempNode.data + " ");
+			System.out.print(tempNode.data + " ");
 
 			if (tempNode.left != null) {
 
