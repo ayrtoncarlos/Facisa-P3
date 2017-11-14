@@ -5,7 +5,7 @@ public class MainGraph {
 	public static void main(String[] args) {
 		
 		int V = 5;
-		int E = 3;
+		int E = 8;
 		
 		Graph graph = new Graph(V, E);
 		
