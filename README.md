@@ -4,7 +4,7 @@ Repository of exercises and projects of graduation period 2017.2.
 
 Discipline: Programming III
 
-Teacher: [Daniel Abella](https://github.com/daniel-abella)
+Professor: [Daniel Abella](https://github.com/daniel-abella)
 
 College: University Center [UNIFACISA](http://www.cesed.br/portal/)
 
